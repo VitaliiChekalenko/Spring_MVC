@@ -20,6 +20,7 @@ Your salary : ${employee.salary}
 <br>
 Your department : ${employee.department}
 <br>
+Your car is : ${employee.carBrand}
 
 </body>
 
