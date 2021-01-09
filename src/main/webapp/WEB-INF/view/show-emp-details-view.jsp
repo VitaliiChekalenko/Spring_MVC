@@ -10,8 +10,10 @@
 <br>
 <br>
 
-Your name:  ${param.employeeName}
-</form>
+<%--Your name:  ${param.employeeName}--%>
+
+Your name: ${nameAttribute} ${description}
+
 </body>
 
 </html>
