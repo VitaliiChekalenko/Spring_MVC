@@ -33,9 +33,12 @@
     <form:checkboxes path="languages" items="${employee.languageList}"/>
 
     <br><br>
-    Your PhoneNumber <form:input path="phoneNumber"/>
+    PhoneNumber <form:input path="phoneNumber"/>
     <form:errors path="phoneNumber"/>
-    <br><br><br><br><br><br>
+    <br><br>
+    Email  <form:input path="email"/>
+    <form:errors path="email"/>
+    <br><br><br>
     <input type="submit" value="OK">
 </form:form>
 
