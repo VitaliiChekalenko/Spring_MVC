@@ -19,12 +19,11 @@
     <form:errors path="surname"/>
     <br><br>
     Salary<form:input path="salary"/>
+    <form:errors path="salary"/>
     <br><br>
 
-   Department <form:select path="department">
-        
+   Department    <form:select path="department">
         <form:options items="${employee.departments}"/>
-
     </form:select>
     <br><br>
     Which car do you want?
@@ -32,9 +31,12 @@
     <br><br>
     Foreign Language(s)
     <form:checkboxes path="languages" items="${employee.languageList}"/>
+
     <br><br>
+    Your PhoneNumber <form:input path="phoneNumber"/>
+    <form:errors path="phoneNumber"/>
+    <br><br><br><br><br><br>
     <input type="submit" value="OK">
-    <br><br>
 </form:form>
 
 </body>

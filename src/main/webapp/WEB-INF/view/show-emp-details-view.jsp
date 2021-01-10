@@ -34,6 +34,10 @@ Language(s) :
 
 </ul>
 
+<br>
+
+Phone number : ${employee.phoneNumber}
+
 </body>
 
 </html>
